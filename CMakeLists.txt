@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD 11)
 add_compile_options(-msse4.1) 
 
 # set(OpenCV_DIR /home/zd/3rdparty/opencv-4.6.0/install/lib/cmake/opencv4)
-find_package(OpenCV 4.6.0 REQUIRED)
+#find_package(OpenCV 4.6.0 REQUIRED)
+find_package(OpenCV REQUIRED)
 
 include_directories(
     ${OpenCV_INCLUDE_DIRS}
