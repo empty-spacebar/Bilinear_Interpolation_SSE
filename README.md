@@ -7,8 +7,13 @@ This poject is for testing SIMD acceleration for bilinear interpolation algorith
 
 Here is the recommanded build instructions in shell:
 
+
 > cd /Project_DIR
+> 
 > mkdir build && cd build
+> 
 > cmake ..
+> 
 > make
+> 
 > ./run
